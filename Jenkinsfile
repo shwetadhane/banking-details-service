@@ -38,7 +38,7 @@ pipeline {
                     sh './kubectl apply -f banking-details-service-k8s-svc.yaml'
                     sh './kubectl rollout restart deployment banking-details-service -n default'
                     // sh './kubectl get pods'
-                }
+//                }
             }
           }
     }
